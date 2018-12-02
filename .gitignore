@@ -98,3 +98,6 @@ Temporary Items
 packages/
 obj/
 
+# binpack
+binpack/
+

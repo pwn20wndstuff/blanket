@@ -1,0 +1,3 @@
+[submodule "threadexec"]
+	path = threadexec
+	url = https://github.com/bazad/threadexec

@@ -760,13 +760,12 @@ Blanket should work on any device running iOS 11.2.6.
 
 1. Download the project:
    ```
-   git clone https://github.com/bazad/blanket
+   git clone --recursive https://github.com/bazad/blanket
    cd blanket
    ```
 2. Download and build the threadexec library, which is required for blanket to inject code in
    processes and tasks:
    ```
-   git clone https://github.com/bazad/threadexec
    cd threadexec
    make ARCH=arm64 SDK=iphoneos EXTRA_CFLAGS='-mios-version-min=11.1 -fembed-bitcode'
    cd ..
